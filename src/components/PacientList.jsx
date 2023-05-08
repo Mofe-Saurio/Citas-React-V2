@@ -7,7 +7,7 @@ const PacientList = ({ pacients, setPacient, deletePacient }) => {
     <div className="md:w-1/2 lg:w-3/5 m-5">
       {pacients && pacients.length ? (
         <>
-          <h2 className="font-black text-3xl text-center">Listado pacientes</h2>
+          <h2 className="font-black text-3xl text-center text-teal-600">Listado pacientes</h2>
           <p className="mt-5 mb-10 text-center">
             Administra tus {""}
             <span className="text-indigo-600 font-bold">Pacientes y citas</span>
